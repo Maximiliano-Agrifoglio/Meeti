@@ -1,0 +1,17 @@
+@use '../custom' as *;
+
+.header{
+     padding-top: 3rem;
+     padding-bottom: 3rem;
+     @include media-breakpoint-up(md){
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+     }
+
+    
+}    
+
+.logo{
+        
+    width: 12rem;
+}

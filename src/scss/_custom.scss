@@ -1,0 +1,30 @@
+// reescribir variables de boostrap!
+$rojo: #f34f51;
+$verde:#0098ae;
+$oscuro:#212121;
+$gris:grey;
+//asignar paleta de colores a boostrap!
+
+$primary: $rojo;
+$secondary: $verde;
+$dark: $oscuro;
+//tipografias
+$display-font-weight: 900;
+$headings-font-weight: 700;
+
+
+$nav-link-padding-x: 0;              
+$nav-link-color: $gris;              
+$nav-link-hover-color: darken($gris,10%);              
+
+
+//card 
+$card-border-color: transparent;
+
+//nav 
+
+//importar bootstrap 
+  @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+  
